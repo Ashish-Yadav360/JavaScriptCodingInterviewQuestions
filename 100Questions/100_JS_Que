@@ -205,7 +205,8 @@ function sumValues(x,y,z){
   return x+y+z;
 }
 sumValues(...[2,3,4]) //how to call a function so that output will be 9
-//Explaination : we can't do like this sumValues(2,3,4).
+//Explaination : we can't do like this sumValues(2,3,4). //By using the spread operator (...), you're effectively passing the elements of the array [2, 3, 4] as
+//individual arguments to the sumValues function. This will return 9 as expected.
 ----------------------------------------------------
 const name = "priya is a girl.";
 console.log(typeof name); //string
